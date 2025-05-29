@@ -1,0 +1,282 @@
+/* Custom styles for CardioPredict AI */
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: #333;
+    background-color: #f9f9f9;
+}
+
+.stApp {
+    background-color: #ffffff;
+}
+
+.css-18e3th9 {
+    padding-top: 0 !important;
+}
+
+/* Header styling */
+.header-container {
+    background: linear-gradient(90deg, #0cb8b6 0%, #325C6A 100%);
+    padding: 2rem 0;
+    margin-bottom: 2rem;
+    color: white;
+    border-radius: 0 0 10px 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.header-title {
+    font-family: 'Raleway', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+
+.header-subtitle {
+    font-size: 1.2rem;
+    font-weight: 300;
+    opacity: 0.9;
+}
+
+/* Card styling */
+.card {
+    background-color: white;
+    border-radius: 10px;
+    padding: 1.5rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+    margin-bottom: 1.5rem;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.card-icon {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.card-title {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 1.2rem;
+    margin-bottom: 0.75rem;
+    color: #325C6A;
+}
+
+/* Button styling */
+.custom-button {
+    background: linear-gradient(90deg, #0cb8b6 0%, #325C6A 100%);
+    color: white;
+    border: none;
+    padding: 0.6rem 1.5rem;
+    border-radius: 50px;
+    font-weight: 600;
+    transition: transform 0.3s, box-shadow 0.3s;
+    text-align: center;
+    display: inline-block;
+    margin: 0.5rem 0;
+}
+
+.custom-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(12, 184, 182, 0.3);
+}
+
+/* Form styling */
+.form-container {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+}
+
+/* Footer styling */
+.footer {
+    background-color: #325C6A;
+    padding: 1.5rem;
+    color: white;
+    font-size: 0.9rem;
+    text-align: center;
+    margin-top: 3rem;
+    border-radius: 10px 10px 0 0;
+}
+
+/* Statistics section */
+.stat-card {
+    background: linear-gradient(135deg, #ffffff 0%, #f5f9fa 100%);
+    border-left: 4px solid #0cb8b6;
+    padding: 1rem;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    margin-bottom: 1rem;
+}
+
+.stat-number {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #325C6A;
+    margin-bottom: 0.2rem;
+}
+
+.stat-label {
+    font-size: 0.9rem;
+    color: #666;
+}
+
+/* Custom chart styling */
+.custom-chart {
+    background-color: white;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .header-title {
+        font-size: 2rem;
+    }
+    
+    .header-subtitle {
+        font-size: 1rem;
+    }
+    
+    .card {
+        padding: 1rem;
+    }
+}
+
+/* Make the app container wider */
+.block-container {
+    max-width: 1200px;
+    padding-top: 2rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+}
+
+/* Prediction form styling */
+.prediction-form {
+    background-color: white;
+    border-radius: 10px;
+    padding: 1.5rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+}
+
+.prediction-form label {
+    font-weight: 600;
+    color: #325C6A;
+}
+
+/* Results styling */
+.result-container {
+    padding: 1.5rem;
+    border-radius: 10px;
+    margin-top: 1.5rem;
+}
+
+.result-high-risk {
+    background-color: rgba(231, 76, 60, 0.1);
+    border-left: 4px solid #e74c3c;
+}
+
+.result-low-risk {
+    background-color: rgba(46, 204, 113, 0.1);
+    border-left: 4px solid #2ecc71;
+}
+
+/* Navigation styling */
+.sidebar .sidebar-content {
+    background-color: #f5f9fa;
+}
+
+.sidebar .sidebar-content .stSelectbox > div > div {
+    background-color: white;
+}
+
+/* Logo styling */
+.logo-img {
+    max-width: 80px;
+    margin-bottom: 0.5rem;
+}
+
+/* Health recommendation styling */
+.health-recommendation {
+    background-color: rgba(12, 184, 182, 0.05);
+    border-left: 4px solid #0cb8b6;
+    padding: 1rem;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+}
+
+.health-recommendation h4 {
+    color: #0cb8b6;
+    margin-bottom: 0.5rem;
+}
+
+/* Custom gauge chart */
+.gauge-container {
+    text-align: center;
+    margin: 1rem 0;
+}
+
+.gauge-label {
+    font-size: 0.9rem;
+    color: #666;
+    margin-top: 0.5rem;
+}
+
+/* User profile styling */
+.profile-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1.5rem;
+}
+
+.profile-avatar {
+    background-color: #0cb8b6;
+    color: white;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    margin-right: 1rem;
+}
+
+.profile-info h3 {
+    margin: 0;
+    color: #325C6A;
+}
+
+.profile-info p {
+    margin: 0;
+    color: #666;
+    font-size: 0.9rem;
+}
+
+/* Streamlit component overrides */
+div[data-testid="stDecoration"] {
+    background-image: linear-gradient(90deg, #0cb8b6, #325C6A);
+}
+
+button[kind="primaryFormSubmit"] {
+    background-color: #0cb8b6;
+    border-radius: 50px;
+}
+
+button[kind="primaryFormSubmit"]:hover {
+    background-color: #325C6A;
+}
+
+.stTextInput > div > div > input {
+    border-radius: 5px;
+}
+
+.stSelectbox > div > div {
+    border-radius: 5px;
+}
